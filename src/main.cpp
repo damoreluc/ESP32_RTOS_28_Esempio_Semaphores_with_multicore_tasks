@@ -61,10 +61,9 @@ void doTask0(void *parameters) {
 // Task sul Core 1
 void doTask1(void *parameters) {
 
-  // Do forever
-  while (1) {
-
     // Ciclo infinito
+  while (1) {
+    // Attende la notifica dal Task0
     xSemaphoreTake(bin_sem, portMAX_DELAY);
 
     // Toggle LED
