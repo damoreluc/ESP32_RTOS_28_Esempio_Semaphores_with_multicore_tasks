@@ -20,7 +20,7 @@
  *   #define PRO_CPU_NUM (0)
  *   #define APP_CPU_NUM (1)
  *
- * Qui vengono adoperate entrambi i core
+ * Qui vengono adoperati entrambi i core
  *
  */
 
